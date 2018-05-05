@@ -1,8 +1,11 @@
 # Factorial-Calculator
 ## Description
+
 Calculates factorial values.
 ##Code
+
 the code itself it  simple math
+
 '''javascript
 var facArray = [];
 var fac = 0;
@@ -26,7 +29,7 @@ function findFacMultiples(){
 function findFacValue(){
     var product = 1;
     for(var i = 0; i < facArray.length; i++){
-        product *= facArray[i];}
+        product = product * facArray[i];}
         facValue = product;
 }
 '''
