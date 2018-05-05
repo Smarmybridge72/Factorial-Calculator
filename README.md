@@ -6,7 +6,7 @@ Calculates factorial values.
 
 the code itself it  simple math
 
-'''javascript
+'''
 var facArray = [];
 var fac = 0;
 var facValue = 0;
