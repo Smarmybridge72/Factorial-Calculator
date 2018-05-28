@@ -1,10 +1,8 @@
 # Factorial-Calculator
 ## Description
-
 Calculates factorial values.
 ##Code
-
-the code itself it  simple math
+the code itself is simple math
 
 ```javascript
 var facArray = [];
