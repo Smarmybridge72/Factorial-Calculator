@@ -5,12 +5,8 @@ Calculates factorial values.
 
 ##Code
 the code itself is simple math
-<<<<<<< HEAD
-'''javascript
-=======
 
 ```javascript
->>>>>>> 7c0c4a74cf47b0ca4b6cc1bc172bf0556ef68e93
 var facArray = [];
 var fac = 0;
 var facValue = 0;
