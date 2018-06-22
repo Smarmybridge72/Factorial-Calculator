@@ -6,12 +6,12 @@ function start(){
     println(facArray);
     print(facValue);
 }
-
+//gets a number to use as a factorial and returns it
 function getFactorial(){
     var factorial = readInt("What is your factorial?");
     return factorial;
 }
-
+//adds every non-negative whole number into an array and returns it
 function findFacMultiples(num){
     var arr = []
     for(var i = 1; i <= num; i++){
@@ -19,7 +19,7 @@ function findFacMultiples(num){
     }
     return arr
 }
-
+//takes array of numbers and multiplies all of them by each other then returns final value
 function findFacValue(arr){
     var value = 1;
     for(var i = 0; i < arr.length; i++){
