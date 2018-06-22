@@ -2,9 +2,9 @@ function start(){
     var fac = getFactorial();
     var facArray = findFacMultiples(fac);
     var facValue = findFacValue(facArray);
-    println(fac);
-    println(facArray);
-    print(facValue);
+    console.log(fac);
+    console.log(facArray);
+    console.log(facValue);
 }
 //gets a number to use as a factorial and returns it
 function getFactorial(){
