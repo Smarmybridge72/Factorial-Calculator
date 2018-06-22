@@ -7,29 +7,33 @@ Calculates factorial values.
 the code itself is simple math
 
 ```javascript
-var facArray = [];
-var fac = 0;
-var facValue = 0;
 function start(){
-    getFactorial();
-    findFacMultiples();
-    findFacValue();
+    var fac = getFactorial();
+    var facArray = findFacMultiples(fac);
+    var facValue = findFacValue(facArray);
     println(fac);
     println(facArray);
     print(facValue);
 }
+
 function getFactorial(){
-    fac = readInt("What is your factorial?");
+    var factorial = readInt("What is your factorial?");
+    return factorial;
 }
-function findFacMultiples(){
-    for(var i = 1; i <= (fac); i++){
-        facArray.push(i);
+
+function findFacMultiples(num){
+    var arr = []
+    for(var i = 1; i <= num; i++){
+        arr.push(i);
     }
+    return arr
 }
-function findFacValue(){
-    var product = 1;
-    for(var i = 0; i < facArray.length; i++){
-        product = product * facArray[i];}
-        facValue = product;
+
+function findFacValue(arr){
+    var value = 1;
+    for(var i = 0; i < arr.length; i++){
+        value *= facArray[i];
+    }
+    return value;
 }
 ```
