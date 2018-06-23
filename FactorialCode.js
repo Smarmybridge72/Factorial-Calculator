@@ -4,11 +4,11 @@ function start(){
     var facValue = findFacValue(facArray);
     console.log(fac);
     console.log(facArray);
-    console.log(facValue);
+    field.output = facValue;
 }
 //gets a number to use as a factorial and returns it
 function getFactorial(){
-    var factorial = readInt("What is your factorial?");
+    var factorial = field.input.value
     return factorial;
 }
 //adds every non-negative whole number into an array and returns it
