@@ -4,7 +4,7 @@ function start(){
     var facValue = findFacValue(facArray);
     console.log(fac);
     console.log(facArray);
-    field.output = facValue;
+    field.output.value = facValue;
 }
 //gets a number to use as a factorial and returns it
 function getFactorial(){
