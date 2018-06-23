@@ -23,7 +23,7 @@ function findFacMultiples(num){
 function findFacValue(arr){
     var value = 1;
     for(var i = 0; i < arr.length; i++){
-        value *= facArray[i];
+        value *= arr[i];
     }
     return value;
 }
