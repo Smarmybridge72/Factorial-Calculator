@@ -1,4 +1,11 @@
-function start(){
+function factorial(n){
+    if(n===1){
+        return n;
+    }else{
+        return n * factorial(n-1);
+    }
+}
+/* function start(){
     var fac = getFactorial();
     var facArray = findFacMultiples(fac);
     var facValue = findFacValue(facArray);
